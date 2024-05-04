@@ -1,0 +1,27 @@
+.boxcart{
+    width: 250px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.namaTokoCart{
+    margin-top: 24px;
+    font-size: large;
+}
+
+.isiCart{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 240px 240px auto auto;
+    gap: 20px;
+    transition: .5s ease;
+}
+
+.textNone{
+    color: black;
+    font-size: xx-large;
+}

@@ -1,0 +1,73 @@
+body{
+  background-color: white;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.isi{
+  margin-top: 24px;
+  margin-left: 215px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 240px 240px auto auto;
+  gap: 20px;
+  transition: .5s ease;
+}
+.namaToko{
+  margin-top: 24px;
+  font-size: large;
+}
+.box{
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: black
+}
+
+p{
+  color: black;
+  font-weight: 500;
+}
